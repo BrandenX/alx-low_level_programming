@@ -1,22 +1,21 @@
 #include "main.h"
-	/**
-	 * main - print _putchar
-	 * is written by mbah
-	 * Return: 0
-	 */
+/**
+ * main - Entry point
+ * Description - Prints '_putchar',
+ * followed by a new linw.
+ * Return: 0 (Success)
+ */
 
 
-	int main(void)
+int main(void)
+{
+	int i;
+	char *aWord = "_putchar";
+
+	for (i = 0; aWord[i] != '\0'; i++)
 	{
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
+		_putchar(aWord[i]);
+	}
 	_putchar('\n');
 	return (0);
-	}
-
+}

@@ -1,14 +1,15 @@
 #include "main.h"
 
+/**
+* main - check the code.
+* print alphabet_x10
+* Return: 0 (Success).
+*/
 
-	/**
-	 * main - check the code.
-	 * print alphabet_x10
-	 * Return: 0 (Success).
-	 */
-	int main(void)
-	{
-	    print_alphabet_x10();
-	    return (0);
-	}
+int main(void)
+
+{
+	print_alphabet_x10();
+	return (0);
+}
 
